@@ -56,10 +56,10 @@ I present a list of sensors I've tried and recommend, evaluated on a couple metr
 
 * Noise: How noisy is the signal (does it jitter and shake etc.)
 * Pressure sensitivity: How much does pressing in the stick vertically (especially at the notches on the horizontal axis) affect the signal. And in what direction. This is a function of the stickbox of course but also the sensor.
-* Hysteresis behavior: i.e. when you go from say left notch to up left notch versus up notch to up left notch, how consistent is the notch angle achieved. This is a function of both the electronics and the physical design of the stickbox. When I say "the hysteresis is worse/better" I mean it is less or more consistent respectively.
+* Hysteresis behavior: when you go from say left notch to up left notch versus up notch to up left notch, how consistent is the notch angle achieved. This is a function of both the electronics and the physical design of the stickbox. When I say "the hysteresis is worse/better" I mean it is less or more consistent respectively.
 * Cost.
 
-In this sensor comparison, I'm assuming the complete module is used, so the sensor is paired with the stickbox it comes with. AFAIK,, there is not a big difference between the stickboxes of the various modules, but there is a big difference between those stickboxes and the 16mm one, which [I explain below](#stickbox-influence).
+In this sensor comparison, I'm assuming the complete module is used, so the sensor is paired with the stickbox it comes with. AFAIK, there is not a big difference between the stickboxes of the various modules, but there is a big difference between those stickboxes and the 16mm one, which [I explain below](#stickbox-influence).
 
 * [Hallpi TMR](#hallpi-tmr-modules) sensors are the best all around, although they are a bit on the expensive side. 
     * hysteresis: these perform the best w.r.t hysteresis from my testing, there is basically none.
