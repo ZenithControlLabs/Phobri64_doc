@@ -41,10 +41,16 @@ A stick module includes a _stickbox_, the moving parts without a sensor, and the
 
 The standard Hori stickbox is 16x16mm. Almost all newer controllers use a 13x13mm (or sometimes 12mm) sized stickbox, which is also shorter by 1mm. They also almost always have a square shaft, unlike the original Hori stickbox. There is a [form factor compatible replacement for the original](#16mm-hori-stickbox-replacement). The image below shows the differences between the original, the replacement, and an example of a newer stick in the 13x13mm form factor.
 
+![]()
+
+<figure class="image">
+  <img src="img/order/comparison.jpeg" alt="{{ include.description }}">
+  <figcaption>Left: Hori stickboxes (two variants, top w/o click button and in the board, bottom w/ click button.) Center: 16mm replacement stickbox. Right: 13mm stickbox (Hallpi). </figcaption>
+</figure>
 
 Phobri64 is compatible with all of them. However, the Hori stick cap is **not compatible** with the square shaft of the newer stickboxes. For now, if you would like to use the original cap, you must **desolder an original Hori stickbox, or use the [16mm replacement](#16mm-hori-stickbox-replacement).**
 
-Since all the new controllers use the 13mm size, unfortunately that means basically all the hall modules have sensors fitted to that form factor. Luckily, they can be relatively easily modded to fit to the side of the 16mm stickbox by clipping off a piece of plastic. (TODO: pictures of this) The build guide has instructions for this.
+Since all the new controllers use the 13mm size, unfortunately that means basically all the hall modules have sensors fitted to that form factor. Luckily, they can be relatively easily modded to fit to the side of the 16mm stickbox by clipping off a piece of plastic. The build guide has instructions for this.
 
 If you would like to use the 13mm stickbox instead, with a non-stock cap, you will need to take care of the height difference of the stickbox and most caps. I don't have exact measurements, but I'd recommend getting a set of [various height stick caps](#increased-height-stick-caps) and selecting one that works nicely for you.
 
@@ -78,7 +84,7 @@ In this sensor comparison, I'm assuming the complete module is used, so the sens
 As mentioned, the stickbox influences a number of things in the sensor performance. Generally, these are the things to know:
 
 * From informal testing, the 16mm stickbox appears to make the hysteresis problem slightly worse across the board, regardless of sensor.
-* The 16mm stickbox also seems to be slightly worse for the stick sensitivity across the board. The stickbox is not very well designed to stabilize the x-axis shaft when it is pressed in.
+* The 16mm stickbox also seems to be slightly worse for the pressure sensitivity across the board. The stickbox is not very well designed to stabilize the x-axis shaft when it is pressed in.
 
 
 # Remaining parts

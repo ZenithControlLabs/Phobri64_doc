@@ -8,11 +8,9 @@ The remaining settings will be explained in more detail below.
 
 # Calibration
 
-When you initially build your controller, or change your sensors/stick setup, you need to calibrate. Hit the "start calibration button". The interface will change and the input display will lock to a certain direction. It goes through each of the 8 notches and collects 8 center readings. You should simply match your stick position to the notch or center position shown on screen, and hit next. You can also undo by hitting back. Some tips:
+When you initially build your controller, or change your sensors/stick setup, you need to calibrate. Hit the "start calibration" button. The interface will change and the input display will lock to a certain direction. It goes through each of the 8 notches and collects 8 center readings. You should simply match your stick position to the notch or center position shown on screen, and hit next. You can also undo by hitting back. Some tips:
 
 * Don't immediately change position after hitting next as it may mess up the calibration.
 * Don't push the stick into the notch harder than you normally would because that may also mess it up.
 * Once again, the green dot is only your raw signal. If the green dot ends up being in the range of the calibrated (this happens more on the remapper than the Phobri), a misconception that I've seen is that the difference between the two is some kind of messed up calibration. It is not; the goal is not for these dots to align in any way. You just want the black and white dot to match the notches you have set.
-
-# 
 
