@@ -29,7 +29,7 @@ When you are done, it should look like this.
 
 Now is a good time to load the initial firmware. Download the latest firmware [from here](https://github.com/ZenithControlLabs/Zenith_FW/releases). You want the UF2 with "Phobri64" in the name. Next, hold the "S1" button on the board, and plug in a USB-C cable from your computer to the adjacent connector, as shown:
 
-![](img/build/flashing.gif)
+![](img/build/flashing2.gif)
 
 The board should show up as a flash drive named "RPI-RP2" on your computer. Simply drag and drop the UF2 you downloaded to this drive. The board will reboot. Test that it is working ok by visiting [the configuration website](https://zenithcontrollabs.github.io/Zenith_FW/web/platforms/phobri64/). It should show up in the list of devices when you hit 'connect controller'. No signal will show up, but this is fine because you have not connected the stickboard. Make sure to unplug it for the rest of this guide.
 
@@ -67,7 +67,7 @@ At this point it is assumed you have a complete module with sensors attached. Dr
 
 Solder the legs first in a cross pattern, making sure that the stickbox remains flat and flush to the board, otherwise it will be soldered crooked. You should have the stickbox side of the board down and the joint side up, so you will have to hold the stickbox in place with your finger or some device to make sure it is flat. Use a healthy amount of solder as these are structural joints, it is important that the joint is not poorly attached.
 
-![](img/build/soldering.gif)
+![](img/build/soldering2.gif)
 
 *disclaimer: I am by no means an expert at soldering; my setup to stabilize the board is probably not the best, and it's rather uncomfortable anyway. Try whatever works and is comfortable for you to solder and keep the stickbox stabilized. Just don't flip the board because the joints should not be soldered on that side.*
 
