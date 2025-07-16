@@ -11,7 +11,12 @@ While calibrating:
 
 For now, the gerbers published for the Phobri64 PCB come with a set of 2 trigger boards as well. But, these trigger boards are interchangeable with the ones on a stock Hori, if you would like to use those instead. 
 
-# Obtaining the boards (TBD)
+# Obtaining the boards
+
+The boards are bought directly from our PCB house of choice, Elecrow. Luckily, Elecrow has a project sharing system to spare you from having to upload the gerbers, BOM, etc. yourself. Head over to [our project webpage on Elecrow](https://www.elecrow.com/sharepj/phobri64-875.html). All you need to do (after creating an account at Elecrow) is hit the add to cart button; a menu will pop up with a bunch of parameters. Leave them as is (these are not just the defaults, they have been chosen explicitly by me.) **The only thing you need to change is the PCBA quantity, unless you plan to assemble the PCBs yourself.** This will save you money but means placing all the components on the board and soldering them yourself with a reflow oven or something similar, which is out of reach for most people. So, in general, you should just have them assembled (set PCBA quantity = PCB quantity.) Also, note that elecrow has a minimum order quantity of 5. 
+
+> [!IMPORTANT]
+> TL;DR Go to https://www.elecrow.com/sharepj/phobri64-875.html; hit add to cart; set PCB and PCBA quantity to the same number, however many boards you want (minimum 5.)
 
 # Stick module
 
