@@ -31,7 +31,7 @@ Now is a good time to load the initial firmware. Download the latest firmware [f
 
 ![](img/build/flashing2.gif)
 
-The board should show up as a flash drive named "RPI-RP2" on your computer. Simply drag and drop the UF2 you downloaded to this drive. The board will reboot. Test that it is working ok by visiting [the configuration website](https://zenithcontrollabs.github.io/Zenith_FW/web/platforms/phobri64/). It should show up in the list of devices when you hit 'connect controller'. No signal will show up, but this is fine because you have not connected the stickboard. Make sure to unplug it for the rest of this guide.
+The board should show up as a flash drive named "RPI-RP2" on your computer. Simply drag and drop the UF2 you downloaded to this drive. The board will reboot. Test that it is working ok by visiting [the configuration website](https://zenithcontrollabs.github.io/Zenith_FW/web/platforms/phobri64/). It should show up in the list of devices when you hit 'connect controller'. No signal will show up, but this is fine because you have not connected the stickboard. Make sure to unplug it for the rest of this guide. If the controller doesn't show up, consult the [debug guide](./Debug_Guide.md).
 
 # Soldering the stick module
 
@@ -67,9 +67,15 @@ At this point it is assumed you have a complete module with sensors attached. Dr
 
 Solder the legs first in a cross pattern, making sure that the stickbox remains flat and flush to the board, otherwise it will be soldered crooked. You should have the stickbox side of the board down and the joint side up, so you will have to hold the stickbox in place with your finger or some device to make sure it is flat. Use a healthy amount of solder as these are structural joints, it is important that the joint is not poorly attached.
 
+
+
 ![](img/build/soldering2.gif)
 
-*disclaimer: I am by no means an expert at soldering; my setup to stabilize the board is probably not the best, and it's rather uncomfortable anyway. Try whatever works and is comfortable for you to solder and keep the stickbox stabilized. Just don't flip the board because the joints should not be soldered on that side.*
+> [!NOTE] I am by no means an expert at soldering; my setup to stabilize the board is probably not the best, and it's rather uncomfortable anyway. Try whatever works and is comfortable for you to solder and keep the stickbox stabilized. Just don't flip the board because the joints should not be soldered on that side.
+
+> [!WARNING]
+> Be very careful here with flux. When you apply it with the board facing down like this, it can drip into the stickbox assembly. It's not super noticeable when it's warm, so it might seem fine at first, but eventually it will make the controller feel very sticky and slow down the movement of the stick: Consult the [debug guide](./Debug_Guide.md) if this happens to you anyway.
+
 
 Next, solder the sensors, highlighted in blue below. You can skip soldering the button pins (in red), if you think you might desolder it later and want to save some time. The button click doesn't do anything on Phobri anyway. 
 
@@ -110,6 +116,8 @@ When it is all done:
 # Next steps
 
 Proceed to the [Usage Guide](./Usage_Guide.md) for calibration, settings info, etc.
+
+Consult the [Debug Guide](./Debug_Guide.md) if things are not working.
 
 
 

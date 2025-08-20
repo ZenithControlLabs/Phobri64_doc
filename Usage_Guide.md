@@ -13,4 +13,3 @@ When you initially build your controller, or change your sensors/stick setup, yo
 * Don't immediately change position after hitting next as it may mess up the calibration.
 * Don't push the stick into the notch harder than you normally would because that may also mess it up.
 * Once again, the green dot is only your raw signal. If the green dot ends up being in the range of the calibrated (this happens more on the remapper than the Phobri), a misconception that I've seen is that the difference between the two is some kind of messed up calibration. It is not; the goal is not for these dots to align in any way. You just want the black and white dot to match the notches you have set.
-

@@ -14,3 +14,4 @@ Start here:
 
 ## [Usage Guide](./Usage_Guide.md)
 
+## [Debug Guide](./Debug_Guide.md)

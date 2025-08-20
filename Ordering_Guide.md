@@ -28,13 +28,15 @@ A stick module includes a _stickbox_, the moving parts without a sensor, and the
 > Make sure that, whatever module you buy, it is **PS5/DualSense compatible**. PS4, PS5, Xbox, etc. controllers all have different pinouts for the sensors; AliExpress sellers make different module variants for each. Pay close attention to what you are buying! PS4, Xbox, etc. modules will **not work** in Phobri64!
 
 > [!TIP]
-> If you want to try a module not listed here, check out [this YouTube chnanel](https://www.youtube.com/@metalplasticelectronics354) for comprehensive reviews. Oriented towards PlayStation/Xbox audience (so no testing of notches & etc.), but still helpful.
+> If you want to try a module not listed here, check out [this YouTube channel](https://www.youtube.com/@metalplasticelectronics354) for comprehensive reviews. Oriented towards PlayStation/Xbox audience (so no testing of notches & etc.), but still helpful.
 
 * #### [16mm Hori Stickbox Replacement](https://www.aliexpress.us/item/3256805206186879.html)
 * #### [Hallpi TMR modules](https://www.aliexpress.us/item/3256808409603542.html)   
     (Color: For PS5)
 * #### [Ginfull TMR modules](https://www.aliexpress.us/item/3256808341019285.html)
     (Color: A)
+* #### [Ksilver TMR modules](https://www.aliexpress.us/item/3256808526199837.html)
+    (Color: 2pcs for PS5)
 * #### [Favor Union Halls](https://www.aliexpress.us/item/3256807054606533.html)
     (Color: PS5-2pcs)
 * #### [Increased height stick caps](https://www.amazon.com/dp/B08GCP53V4?ref=ppx_pop_mob_ap_share)
@@ -82,7 +84,9 @@ In this sensor comparison, I'm assuming the complete module is used, so the sens
 
 * [Ginfull TMR](#ginfull-tmr-modules) sensors are the cheapest TMRs, but are a bit worse than the hallpis in all other characteristics. They have some hysteresis, a bit more pressure sensitivity (although it increases values instead of decreases) and noise than the hallpis. 
 
-* [Favor Union Halls](#favor-union-halls) I would say are the best in class for Hall sensors. They are cheaper than all of the TMRs. Noisier than the TMRs as expected. Signal might respond slightly faster? Have not evaluted scientifically. No data on the hysteresis at the moment, I don't currently have a controller with them. 
+* [Ksilver TMR](#ksilver-tmr-modules) sensors are similar to the Hallpis. The pressure sensitivity is a bit better. Similar lack of hysteresis. They have odd behavior where the values drift for a bit randomly and then return to normal. (Hallpis also have this but it's less pronounced and seems to happen more when you're moving it around a lot.) One thing is you won't be able to use these modules on any other stickbox, the magnet is part of the stickbox assembly. The stock stickbox is also relatively loose.
+
+* [Favor Union Halls](#favor-union-halls) I would say are the best in class for Hall sensors. They are cheaper than all of the TMRs. Noisier than the TMRs as expected. Signal might respond slightly faster? Have not evaluted scientifically. No data on the hysteresis at the moment, I don't currently have a controller with them. You also can't use the modules on a non-favor union stickbox, they use a different mounting mechanism for the magnet. You can combine the sensors with something like a Ginfull magnet though. 
 
 ### Stickbox influence 
 
@@ -98,5 +102,7 @@ As mentioned, the stickbox influences a number of things in the sensor performan
     * You want **10 pins, 50mm length, 0.5mm pitch, B type.**
     * [AliExpress](https://www.aliexpress.us/item/3256806969799753.html)
 * Trigger board wire (if you are not taking one from a stock hori)
-    * 3 wires going from the mainboard to trigger board.  Anything you can find in roughly 20-22awg is fine. The through hole on the board for the wires is about 1mm.
-    * I've bought the [4-pin variant of this](https://www.aliexpress.us/item/3256806969799753.html) because it's cheap and it's the only listing with more than 2 pins that seems to have ground/black on the outside.
+    * 3 wires going from the mainboard to trigger board.  Anything you can find in roughly 22-26awg is fine (in practice it kind of depends on how thick the individual strands are though). The through hole on the board for the wires is about 1mm.
+    * I've bought the [4-pin variant of this](https://www.aliexpress.us/item/3256806969799753.html) because it's cheap and it's the only listing with more than 2 pins that seems to have ground/black on the outside. It works but if you accidentally take off too many strands taking off the insulation, it can leave the connections a little brittle.
+    * There are also real ribbon cables like the ones in the hori. These are a lot more durable. [This one off Mouser](https://www.mouser.com/ProductDetail/KYOCERA-AVX/902220736003000?qs=7tvpBpzVbup6XfIuE3jShQ%3D%3D) is good, but a little frustrating to work with as it's hard to get the wires twisted right to fit into the hole. Tinning them tends to make the wire too big.
+    * I am still looking for better solutions here. Please let me know on the discord if you find something nice! Or raise an issue here on the github.
