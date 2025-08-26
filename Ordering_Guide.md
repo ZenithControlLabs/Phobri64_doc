@@ -100,7 +100,7 @@ As mentioned, the stickbox influences a number of things in the sensor performan
 
 * FFC cable:
     * You want **10 pins, 50mm length, 0.5mm pitch, B type.**
-    * [AliExpress](https://www.aliexpress.us/item/3256806969799753.html)
+    * [AliExpress](https://www.aliexpress.us/item/2255799835736063.html)
 * Trigger board wire (if you are not taking one from a stock hori)
     * 3 wires going from the mainboard to trigger board.  Anything you can find in roughly 22-26awg is fine (in practice it kind of depends on how thick the individual strands are though). The through hole on the board for the wires is about 1mm.
     * I've bought the [4-pin variant of this](https://www.aliexpress.us/item/3256806969799753.html) because it's cheap and it's the only listing with more than 2 pins that seems to have ground/black on the outside. It works but if you accidentally take off too many strands taking off the insulation, it can leave the connections a little brittle.
